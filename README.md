@@ -1,8 +1,27 @@
-# React + Vite
+# ExTrack - Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+ExTrack is a simple web application built with React.js for tracking expenses. It allows users to manage multiple trackers simultaneously, organizing expenses by category or project. Utilizing React hooks like useState, useContext, useReducer, useEffect, and useRef, ExTrack ensures a smooth user experience for easily adding, viewing, and deleting expenses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Add new expense trackers
+- View a list of your trackers
+- Delete expenses and trackers
+- View how much you have saved or spent during the month
+
+## Technologies Used
+
+- **React** for building the user interface
+- **Styled Components** for styling
+- **Reducer** for persisting state over sessions
+- **Context** for global state management
+ 
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nkhan000/expense-tracker-umi.git
